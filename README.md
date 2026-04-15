@@ -4,17 +4,31 @@ FIBONACCI
 #WORKFLOW
 
 Start
-Input a number �
-Check if �:
-If Yes, return 0 and end
-If No, go to next step
-Check if �:
-If Yes, return 1 and end
-If No, go to next step
+
+Input a number n
+
+Check if n = 0:
+
+ If Yes, return 0 and end
+ 
+ If No, go to next step
+
+Check if n = 1:
+
+ If Yes, return 1 and end
+
+ If No, go to next step
+
 Calculate Fibonacci:
-Compute �
+return fib(n-1) + fib(n-2)
+
 Return the result
+
 End
+
+
+
+
 
 #PSUEDOCODE
 
@@ -36,6 +50,8 @@ FUNCTION fib(n)
 END FUNCTION
 
 END
+
+
 
 
 
